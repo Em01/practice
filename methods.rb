@@ -42,3 +42,8 @@ Hello, World!
 
 #.last withh five the last element for example from an array
 #.sort will return a new array where the elements are sorted, if elements are strings this eill be in alphabetical order, numbers will be in asc order
+
+
+
+
+#attr_accesor method is used to define attributes for instances of  class
