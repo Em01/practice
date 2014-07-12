@@ -61,6 +61,18 @@ greeting = "Hello Everyone!"
 greeting.gsub("Everyone!", "Friends!")
 => "Hello Friends!"
 
+#.times will repeat the instruction a set number of times
+5.times do 
+  puts "Hello, World!"
+end
+=>
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+ => 5 
+
 
 
 
@@ -92,6 +104,48 @@ mood = "excited"
 puts "I am #{modifier * 3 + mood} for today"
 => I am veryveryveryexcited for today
 # in the above example modifier * 3 + mood is evaluated first, then the result is injected into the outer string
+
+
+
+
+
+
+#SYMBOLS
+#think halfway between a string and a number
+#recognize a symbol because it starts with :
+#consider a symbol as a stripped down string with hardly any methods and no string interpolation
+
+
+
+
+
+
+
+#NUMBERS
+#two basic kinds of numbers
+#integers and floats
+#integers are whole numbers
+#floats have a decimal point
+#integers are objects so they have methods
+
+
+
+
+
+
+#REPEATING INSTRUCTIONS
+#for loops are common but not very readable
+#times method to repeat an instruction a set number of times.
+5.times do 
+  puts "Hello, World!"
+end
+
+=>Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+Hello, World!
+ => 5 
 
 
 
