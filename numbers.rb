@@ -5,3 +5,6 @@
 #integers are whole numbers
 #floats have a decimal point
 #integers are objects so they have methods
+
+
+#the computer will always round down
