@@ -43,3 +43,14 @@ end
 frank = Student.new
 frank.first_name = "Frank"
 puts "Frank's favorite number is #{frank.favorite_number}."
+
+
+
+
+#if we want to create a new object of a certain class we use new
+#because you can create arrays and strings using [] and '' we rarely use .new
+#String.new creates an empty string
+#Array.new creates an empty array
+#Integer.new DOES NOT create a integer you just have to write the integer
+
+
