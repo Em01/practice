@@ -45,3 +45,9 @@
  => ["this", "is", "array", "an"] 
 2.1.1 :039 > one.join
  => "thisisanarray"
+
+
+ #push will add an object to the end of the array
+ #pop will remove the last object from an array 
+ #last is similr to pop it tells you what is at the end of the arrya but wont remove anything
+ 

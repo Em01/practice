@@ -1,11 +1,12 @@
 #Conditionals 
 #evaluate to true or false
 #most common conditional operators are 
-== (equal)
+== (are these equal?)
 > (greater than)
 >= (greater than or equal to)
 < (less than)
 <= (less than or equal to)
+!= (are these different?)
 
 #some objects have methods which return a true or false so they are used in conditional statements
 #e.g every object has the method .nil which is true only when the object is nil
@@ -49,6 +50,10 @@ end
 
 # = is an assignment telling not asking 
 # == is a question asking not telling 
+
+#when strings get compared it is based on the dictionary ordering
+#capitals are ordered as coming before lower case therefore use downcase or upcase before comparing
+
 
 
 
