@@ -47,3 +47,26 @@ Hello, World!
 
 
 #attr_accesor method is used to define attributes for instances of  class
+
+
+
+
+
+#if puts means put string
+#gets will retrieve strings
+
+puts gets
+Hello?
+=> Hello?
+#what you type will be repeated back to you
+
+puts 'Hello there, and what\'s your name?'
+#.chomp will take off any of the enters at the end of the string
+
+
+
+
+
+
+
+
