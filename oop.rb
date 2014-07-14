@@ -2,6 +2,8 @@
 #ruby is an object oriented language with some functional and procedural features
 #OOP is a programming paradigm that uses objects and their interactions to design applications and programs
 #these are the basic OOP concepts
+#Every value in Ruby is an object even the most primitive things such as strings, numbers, true and false
+#A class itself is an object that is an instance o the Class class. 
 
 #Abstraction
 #this is the simplifying of complex reality by modeling classes appropriate to the problem
@@ -26,13 +28,14 @@
 #The class is a blueprint that describes the state and behaviour that the objects of the class all share
 #A class can be used to create many objects
 #Objects that are created at runtime from a class are called instances of that particular class
-
+#A class is used to specify the form of an object and it combines data representation and methods for manipulating that data into one package
+#The data and methods within a class are called members of the class
 Class Plane
 
 end
 #create a simple object
 #This is a simple class definition and the body of the template is empty with no data or methods
-
+#We declare objects of a class using new keyword
 a = Plane.new
 #This creates an instance of the Plane class. Here we have the new method. the a variable stores the newly created object
 
@@ -52,6 +55,8 @@ puts a
 #Constructors cannot be inherited
 #The constructor of a parent object is called with a super method
 #They are called in the order of inheritance 
+#Useful when you want to initialize some class variables at the time of object creation
+#This method may take a list of parameters and like any other ruby method it would be preceded by the def keyword
 
 class Plane
 
