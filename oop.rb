@@ -5,6 +5,10 @@
 #Every value in Ruby is an object even the most primitive things such as strings, numbers, true and false
 #A class itself is an object that is an instance o the Class class. 
 
+#object is fundamental building block in ruby
+
+#objects are instances of class
+
 #Abstraction
 #this is the simplifying of complex reality by modeling classes appropriate to the problem
 
@@ -22,7 +26,7 @@
 #In an OOP program we create objects
 #These objects communicate together through methods
 #Each object can receive messages, send messages and process data
-
+#.class will tell you what class the object belongs to 
 #Steps to creating an object
 #We firstly define a class which is a template for an object
 #The class is a blueprint that describes the state and behaviour that the objects of the class all share
@@ -69,3 +73,31 @@ Plane.new
 
 #The Plane class has a constructor method called initialize and it prints a message to the console
 #At the moment of the object creation the constructor method is called
+
+#EXAMPLE 2
+class Person #define the concept of the person
+  attr_accessor :name, :age, :gender #three attributes for the Person class and this will let us change the persons name, age ad gender
+end
+
+
+
+#An instance variable is a variable define in a class for which each object in that class has a seperate copy. 
+class Person
+
+  def initialize name
+    @name = name
+  end
+
+  def get_name
+    @name
+  end
+end
+
+p1 = Person.new "Jane"
+p2 = Person.new "Becky"
+
+puts p1.get_name
+puts p2.get_name
+
+#The above code has a Person class with one instance variable 
+#In the initialize method of the Person class we set a instance variable to a value name. 
