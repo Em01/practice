@@ -169,3 +169,24 @@ Thank you for...
 
 false
 
+
+
+#.split
+#divides string into substrings based on a delimiter & or , 
+#returns an array of these substrings
+" now's  the time".split 
+=>["now's", "the", "time"]
+
+#.take returns an array containing the first n items from enum
+(1..7).take(3)
+=>
+[1. 2, 3]
+
+
+#.join on class array
+#returns a string created by converting each element of the array to a string and concatenating them, seperated by separator
+["a", "b", "c"].join
+=> "abc"
+["a", "b", "c"].join("-")
+=> "a-b-c"
+
