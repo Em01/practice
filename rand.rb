@@ -61,3 +61,10 @@ puts(rand(100))
 70
 
 #it wil do the same every time you seed it with the same number otherwise use srand 0
+
+#if a player wanted to play against a computer and they had to chose who was who at random
+
+@cpu = rand() > 0.5 ? 'X' : 'O'
+@user = @cpu == 'X' ? 'O' : 'X'
+#randomly determining who is x and who is o 
+#assigned each to a variable cpu or user
